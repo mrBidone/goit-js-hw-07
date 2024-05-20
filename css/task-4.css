@@ -1,0 +1,28 @@
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #2e2f42;
+}
+
+input {
+    max-width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+}
+
+button {
+    background-color: #4E75FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    min-width: 86px;
+    height: 40px;
+}
+
+
