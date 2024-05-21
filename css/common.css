@@ -12,3 +12,19 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+button {
+  background-color: #4E75FF;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  min-width: 86px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #3b58c1;
+}
