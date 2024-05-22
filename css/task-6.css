@@ -1,0 +1,40 @@
+.list-boxes {
+    background-color: #F6F6FE;
+    display: flex;
+    gap: 40px;
+    padding: 32px 32px;
+}
+
+.controls-container {
+    margin-bottom: 16px;
+    background-color: #F6F6FE;
+    padding: 32px 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.data-input{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    max-height: 40px;
+    border: 1px solid  #808080;
+    border-radius: 8px;
+    background-color: transparent;
+    padding-left: 72px;
+    font-size: 16px;
+}
+
+.btn-create {
+    width: 120px;
+}
+
+.btn-destroy {
+    width: 120px;
+    background-color: #ff4e4e;
+}
+
+.btn-destroy:active {
+    background-color: #922e2e;
+}
+
