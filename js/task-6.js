@@ -40,17 +40,19 @@ destroyBtn.addEventListener("click", destroyBoxes);
     destroyBoxes(); 
 
     let size = 30;
-
+    let boxElem = "";
     for (let i = 0; i < amount; i++) {
-      const boxElem = document.createElement("div");
-      boxElem.style.minWidth = `${size}px`;
-      boxElem.style.height = `${size}px`;
+      boxElem += `<div style = "background-color:${getRandomHexColor()}; min-width:${size}px; height:${size}px"></div>`;
       size += 10;
-      boxElem.style.backgroundColor = getRandomHexColor();
-      divForBoxes.appendChild(boxElem);
     };
+      divForBoxes.innerHTML = boxElem;
+      // console.log(boxElem);     
 };
-  
+
+
+
+
+
 
 
 
